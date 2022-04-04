@@ -1,0 +1,58 @@
+.nav .nav-item .nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav .nav-item .nav-link:hover {
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+}
+
+.featured {
+    height: 70vh;
+    background-image: url(./assets/pwa-o-que-e-quando-utilizar.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tcontainer {
+    width: 70%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.gradient {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #15171A, transparent);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.col img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 720px) {
+    .gradient h1 {
+        font-size: 2rem;
+    }
+}
